@@ -17,7 +17,7 @@
 <p><strong>Message:</strong>{{ x.message }}</p>
 <p>
 
-    <a href="" class="text-warning me-5">
+    <a href="{% url 'edit' x.id %}" class="text-warning me-5">
         <i class="bi bi-pencil"> </i>Edit
     </a>
 

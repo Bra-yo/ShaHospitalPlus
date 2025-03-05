@@ -84,3 +84,10 @@ def edit(request,id):
         return redirect('/show')
     else:
         return render(request,'edit.html',{'editappointment':editappointment})
+
+def register(request):
+    return render (request,'Register.html')
+
+
+def login_view(request):
+    return render (request,'login.html')
